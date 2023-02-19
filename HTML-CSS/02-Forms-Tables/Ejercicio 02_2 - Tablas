@@ -1,0 +1,48 @@
+Crea un nuevo documento HTML que cumpla los siguientes parámetros
+
+El título debe ser Ejercicio 022 - Tablas en HTML
+
+El body debe contener una tabla que cumpla las siguientes características
+
+Las columnas serán las siguientes Título, Autor, Año de publicación, Enlace a Amazon
+
+Debe tener tres entradas, que corresponderán a tus tres libros favoritos
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejercicio 022 - Tablas en HTML</title>
+    </head>
+    <body>
+        <h3>Horas para aprender HTML</h3>
+        <table>
+            <tr>
+                <th>Autor</th>
+                <th>Año de publicación</th>
+                <th>Enlace a Amazon</th>
+            </tr>
+            <tr>
+                <td>Incrementa tu IQ financiero: Sé más listo con tu dinero</td>
+                <td>Robert T. Kiyosaki</td>
+                <td><a href="https://www.amazon.com/-/es/Robert-T-Kiyosaki-ebook/dp/B0155JDQKG/ref=sr_1_15?__mk_es_US=%C3%85M%C3%85%C5%BD								%C3%95%C3%91&crid=32Z93EU5RGVX5&keywords=kindle+books+educacion+financiera&qid=1676845734&sprefix=
+				kindle+books+educacion+financier%2Caps%2C146&sr=8-15>Link a Amazon</a>
+		</td>
+            </tr>
+            <tr>
+                <td>Padre Rico, Padre Pobre</td>
+                <td>Robert T. Kiyosaki</td>
+                <td><a href="https://www.amazon.com/-/es/gp/product/B08QDMJ959?ref_=dbs_p_pwh_rwt_anx_b_lnk&storeType=ebooks&language=es_US&currency=COP>
+				Link a Amazon</a>
+		</td>
+            </tr>
+            <tr>
+                <td>Day trading: Negociación intradía: estrategias y tácticas</td>
+                <td>Oliver Velez</td>
+                <td><a href="https://www.amazon.com/-/es/Oliver-Velez/dp/8423432130/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD				%C3%95%C3%91&crid=1R6DYVUNQ69XD&keywords=book+day+trading+oliver+velez&qid=1676846147&sprefix=libro+day+trading+oliver+velez
+				%2Caps%2C152&sr=8-1>
+				Link a Amazon</a>
+		</td>
+            </tr>
+        </table>
+    </body>
+</html>
