@@ -1,0 +1,50 @@
+Crea un nuevo documento HTML que cumpla los siguientes parámetros:
+
+Debe estar dividido en tres secciones (etiqueta)
+
+Condiciones para la primera sección
+
+Debe tener un título (h1) indicando "Aprendiendo a utilizar imágenes"
+
+Debes incluir una imagen de tu videojuego favorito
+
+Condiciones para la segunda sección
+
+Debe tener un título (h1) indicando "Aprendiendo a utilizar los vídeos"
+
+Descárgate cualquier vídeo de youtube
+
+Debes incluir una etiqueta de vídeo que reproduzca el vídeo que acabas de descargar
+
+El vídeo debe mostrar los controles, reproducirse automáticamente y en bucle, PERO inicialmente debe estar sin sonido
+
+Condiciones para la tercera sección
+
+Debe tener un título (h1) indicando "Aprendiendo a utilizar los audios"
+
+Descárgate cualquier audio de una canción de youtube
+
+Debes incluir una etiqueta de audio que reproduzca el audio que acabas de descargar
+
+El audio debe mostrar los controles, reproducirse automáticamente y en bucle
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Multimedia con HTML</title>
+    </head>
+    <body>
+        <h1>Aprendiendo a utilizar imágenes</h1>
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ifema.es%2Fnoticias%2Fvideojuegos%2Fbeneficios-videojuegos&psig=AOvVaw2aYMe8e-GwaihLmBFoWqSD&ust=1676938951609000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPCVwdTqov0CFQAAAAAdAAAAABAD" width="400" height="300" />
+   
+	<h1>Aprendiendo a utilizar los vídeos</h1>
+        <video width="300" height="300" controls>
+            <source src="videos/Intro.mp4" type="video/mp4" autoplay muted loop />
+        </video>
+
+        <h1>Aprendiendo a utilizar los audios</h1>
+        <audio controls>
+            <source src="audios/03-Multimedia_gnr-welcome.mp3" type="audio/mp3" autoplay loop />
+        </audio>
+    </body>
+</html>
