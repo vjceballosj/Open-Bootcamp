@@ -1,0 +1,36 @@
+div
+{
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 5px;
+}
+
+/*Se posiciona en relación
+al posicionamiento original*/
+.relative
+{
+    position: relative;
+    left: 80px;
+}
+/*Se posiciona en relación
+al posicionamiento de la pantalla*/
+.fixed
+{
+    position: fixed;
+    background-color: green;
+}
+/*Se posiciona en relación
+al posicionamiento de su elemento padre*/
+.absolute
+{
+    position:absolute;
+    background-color: brown;
+}
+/*Se posiciona en relación
+al posicionamiento original*/
+.sticky
+{
+    position: sticky;
+    background-color: darkgoldenrod;
+    top: 0px;
+}

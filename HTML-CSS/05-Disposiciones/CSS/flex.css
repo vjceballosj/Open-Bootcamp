@@ -1,0 +1,32 @@
+/*https://codepen.io*/
+
+.flex
+{
+    display: flex;
+    /*flex-direction: column;*/
+    background-color: yellow;
+    height: 300px;
+    justify-content: space-around;
+    /*align-items: stretch;*/
+    align-items: center;
+    /*flex-wrap: nowrap;*/
+}
+
+.contenido-1 {
+    background-color: white;
+    height: 200px;
+    width: 100px;
+    border: 1px solid blue;
+}
+.contenido-2 {
+    background-color: white;
+    height: 200px;
+    width: 100px;
+    border: 1px solid blue;
+}
+.contenido-3 {
+    background-color: white;
+    height: 200px;
+    width: 100px;
+    border: 1px solid blue;
+}
